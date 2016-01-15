@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>永利会</title>
+		<meta name="viewport" content="width=device-width, initial-scale=0.56"/>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/swiper-3.2.7.min.css" />
+	</head>
+	<body>
+        <div class="head">
+            <div class="nav_icon">
+            	<a href="#"><img src="img/nav.png"/></a>
+            </div>
+            <div class="logo">
+            	<a href="#"><img src="img/logo.png"/></a>
+            </div>
+            <div class="person_account">
+            	<a href="#"><img src="img/person_count.png"/></a>
+            </div>
+        </div>
+        <div class="nav clearfix">
+	    	  <div>
+	    	  	<a href="#">推荐游戏</a>
+	    	  	<span class="border"></span>
+	    	  </div>
+	    	  <div class="active">
+	    	  	<a href="#">最新活动</a>
+	    	  	<span class="border"></span>
+	    	  </div>
+        </div>
+        <div class="swiper-container pic_carousel">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide">
+			        	<img src="img/carousel_item.png" alt="" />
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="img/carousel_item.png" alt="" />
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="img/carousel_item.png" alt="" />
+			        </div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			    
+        </div>
+        <div class="game_list">
+        	<ul>
+        	  <li>   
+
+    	  	     <div class="game_img">
+    	  	     	<a href="#"><img src="img/game_list1.png" alt="" /></a>
+    	  	     </div>
+    	         <div class="game_text">
+    	             <h2>硬币投掷赌博游戏</h2>
+    	             <h3>又称何博士，被誉为最多美女荷官的国际博彩平台... </h3>
+    	         </div>
+    	         <div class="game_start">
+    	               <a href="#">立即游戏</a>             
+    	         </div>
+        	  </li>
+        	    <li>   
+    	  	     <div class="game_img">
+    	  	     	<a href="#"><img src="img/game_list2.png" alt="" /></a>
+    	  	     </div>
+    	         <div class="game_text">
+    	             <h2>硬币投掷赌博游戏</h2>
+    	             <h3>又称何博士，被誉为最多美女荷官的国际博彩平台... </h3>
+    	         </div>
+    	         <div class="game_start game_active">
+    	               <a href="#">立即游戏</a>             
+    	         </div>
+        	  </li>
+        	    <li>   
+
+    	  	     <div class="game_img">
+    	  	     	<a href="#"><img src="img/game_list3.png" alt="" /></a>
+    	  	     </div>
+    	         <div class="game_text">
+    	             <h2>硬币投掷赌博游戏</h2>
+    	             <h3>又称何博士，被誉为最多美女荷官的国际博彩平台... </h3>
+    	         </div>
+    	         <div class="game_start">
+    	               <a href="#">立即游戏</a>             
+    	         </div>
+        	  </li>
+        	    <li>   
+
+    	  	     <div class="game_img">
+    	  	     	<a href="#"><img src="img/game_list4.png" alt="" /></a>
+    	  	     </div>
+    	         <div class="game_text">
+    	             <h2>硬币投掷赌博游戏</h2>
+    	             <h3>又称何博士，被誉为最多美女荷官的国际博彩平台... </h3>
+    	         </div>
+    	         <div class="game_start game_active">
+    	               <a href="#">立即游戏</a>             
+    	         </div>
+        	  </li>
+        	</ul>
+        </div>
+        <div class="user_operate">
+        	<ul>
+        	    <li> 
+        	       <a href="#" class="prev"></a>
+        	       <a href="#" class="next"></a>
+        	       <a href="#" class="top"></a>
+        	       <a href="#" class="book"></a>
+        	       <a href="#" class="tab"></a>
+        	    </li>
+        	</ul>
+        </div>
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/swiper-3.2.7.min.js"></script>
+        <script>
+        	$(function(){
+        		var mySwiper = new Swiper ('.swiper-container', {
+				    direction: 'horizontal',
+				    autoplay:"3000",
+				    autoplayDisableOnInteraction:"true",
+				    coverflow:'',
+				    loop: true,
+				    // 如果需要分页器
+				    pagination: '.swiper-pagination',
+				    paginationClickable:true
+                })        
+        	})
+        </script>
+	</body>
+</html>

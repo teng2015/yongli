@@ -1,0 +1,157 @@
+body{
+	width:100%;
+}
+.head{
+	width:100%;
+	height:1.26rem;
+	line-height: 1.26rem;
+	background:#c10334;
+}
+.head .nav_icon{
+	float: left;
+	width:0.8rem;
+	text-align: right;
+}
+.head .logo{
+	float: left;
+	width:5.6rem;
+	text-align: center;
+}
+.head .person_account{
+	float: left;
+	width:0.8rem;
+}
+.nav{
+	width:100%;
+	height:0.78rem;
+	line-height:0.78rem;
+	background:#383838;
+	overflow: hidden;
+}
+.nav ul li{
+    float: left;
+	width:3.6rem;
+	height:0.78rem;
+    position:relative;
+}
+.nav li:first-child{
+	width:3.58rem;
+	border-right:1px solid #c8c8c8;
+}
+.nav li a{
+	  display: block;
+	  font-size:0.28rem;
+	  text-align: center;
+}
+.nav li.active a{
+	color:#fff;
+}
+.nav .active .border{
+	width:0.48rem;
+	height:0.06rem;
+	background:#9c9c9c;
+	position: absolute;
+	bottom: 0;
+	left:50%;
+	transform: translateX(-0.24rem);
+	-webkit-transform:translateX(-0.24rem);
+	-moz-transform:translateX(-0.24rem);
+}
+.pic_carousel{
+	width:100%;
+	height:3.38rem;
+}
+.pic_carousel img{
+	width:100%;
+	height:3.38rem;
+}
+.game_list {
+	width:100%;
+	height:6.46rem;
+}
+.game_list ul li{
+	width:100%;
+	height:1.68rem;
+	padding-left:0.12rem;
+	overflow: hidden;
+}
+.game_list ul li .game_img{
+	float: left;
+	width:1.76rem;
+	height:100%;
+	margin-top:0.18rem;
+}
+.game_img img{
+    width:100%;
+	height:100%;
+}
+.game_list ul li .game_text{
+	float: left;
+	width:3.40rem;
+	height:1.24rem;
+	margin-left:0.24rem;
+	margin-top: 0.22rem;
+}
+.game_text h2{
+	color:#666666;
+	font-size:0.28rem;
+}
+.game_text h3{
+	display: block;
+	color:#b8b8b8;
+	margin-top:0.18rem;
+	font-size:0.20rem;
+}
+.game_list ul li .game_start{
+	float: left;
+	width:1.69rem;
+	height:100%;
+	background: #f0f0f0;
+	text-align: center;
+}
+.game_start a{
+	display: inline-block;
+	line-height:1.68rem;
+	font-size:28px;
+	color:#7c7c7c;
+	text-align: center;
+}
+.game_list ul li .game_active{
+	background:red;
+}
+.game_active a{
+	color:#fff;
+}
+.user_operate{
+	width:100%;
+	height:0.87rem;
+	position: fixed;
+	left:0;
+	bottom:0;
+}
+.user_operate ul li{
+	width:100%;
+	height:0.87rem;
+	padding-left: 0.12rem;
+	overflow: hidden;
+}
+.user_operate ul li a{
+	float: left;
+	width:19%;
+	height:100%;
+}
+.prev{
+	background: url(../img/prev.png) center bottom no-repeat;
+}
+.next{
+	background: url(../img/next.png) center bottom no-repeat;
+}
+.top{
+	background: url(../img/load.png) center bottom no-repeat;
+}
+.book{
+	background: url(../img/book.png) center bottom no-repeat;
+}
+.tab{
+	background: url(../img/tab.png) center bottom no-repeat;
+}

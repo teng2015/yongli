@@ -1,0 +1,143 @@
+.head{
+	 display:-webkit-flex;
+	 align-items:center;
+	 width:100%;
+	 height:126px;
+	 background:#c10334;
+	 }
+.head .nav_icon{
+	 flex:1;
+}
+.head .logo{
+	 display: -webkit-flex;
+	 width:75%;
+	 justify-content: center;
+}
+.head .person_account{
+	 flex:1;
+}
+.nav{
+	display: -webkit-flex;
+	display: flex;
+    width:100%;
+    height:80px;
+    background:#383838;
+}
+.nav div{
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	flex: 1;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	font-size:24px;
+	color:#878787;
+}
+.nav div:first-child{
+	border-right:1px solid #494949;
+}
+.nav .active a{
+	color:#fff;
+}
+.nav .active .border{
+	width:48px;
+	height:4px;
+	background:#9c9c9c;
+	position: absolute;
+	left:50%;
+	transform: translateX(-24px);
+	-webkit-transform:translateX(-24px);
+	-moz-transform:translateX(-24px);
+	bottom:0;
+}
+.pic_carousel{
+	display: -webkit-flex;
+}
+.pic_carousel img{
+	width:100%;
+	height:336px;
+}
+.game_list{
+	width:100%;
+	height:50.8%;
+	border:1px solid red;
+}
+.game_list ul li{
+	flex:1;
+	display: -webkit-flex;
+    align-items: center;
+	width:100%;
+	background:#ffffff;
+    padding-left: 12px;
+}
+.game_list ul li .game_img{
+	flex:1;
+}
+.game_img img{
+	width:100%;
+	height:124px;
+}
+.game_list ul li .game_text{
+	flex:3;
+	margin-left: 12px;
+}
+.game_text h2{
+	display: -webkit-flex;
+	font-size:28px;
+	margin-bottom:16px;
+	color:#989898;
+}
+.game_text h3{
+	font-size:20px;
+	color:#b8b8b8;
+}
+.game_list ul li .game_start{
+	display:-webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex:1;
+	align-self: stretch;
+}
+.game_start a{
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+    font-size:24px;
+}
+.game_list ul li .game_active{
+	background:red;;
+}
+.game_active a{
+	color:#fff;
+}
+.user_operate{
+	width:100%;
+}
+.user_operate ul li{
+	width:100%;
+	height:87px;
+	display: -webkit-flex;
+	display: flex;
+}
+.user_operate ul li a{
+	display: -webkit-flex;
+	justify-content: center;
+	flex:1;
+}
+.prev{
+	background: url(../img/prev.png) center center no-repeat;
+}
+.next{
+	background: url(../img/next.png) center center no-repeat;
+}
+.top{
+	background: url(../img/load.png) center center no-repeat;
+}
+.book{
+	background: url(../img/book.png) center center no-repeat;
+}
+.tab{
+	background: url(../img/tab.png) center center no-repeat;
+}
